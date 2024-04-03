@@ -1,6 +1,7 @@
 /* content_first_page */
 .content {
   width: 1130px;
+  margin: 0 auto;
 }
 
 
@@ -21,6 +22,7 @@
 
 .text_slider {
   margin: 0 auto;
+  display: grid;
 }
 
 

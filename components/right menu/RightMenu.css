@@ -5,8 +5,10 @@
     height: 100%;
     border-radius: 2px;
     box-shadow: 2px 0px 10px rgba(3, 3, 3, 0.1);
-    justify-self: right;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px   ;
 }
 
 .account {
@@ -22,14 +24,17 @@
 .night_light_mode {
     width: 30px;
     height: 30px;
-    border-radius: 20px;
-    background-image: url(../img/Icon\ brightness\ 6.png);
-    background-repeat:no-repeat ;
+    border-radius: 15px;
+    background-image: url(../img/brightness_6\ \(2\).svg);
      margin: 0 auto;
 }
 
 .text_slide_seven_page{
     font-size: 20px;
+    width: 30px;
+    height: 30px;
     font-weight: bolder;
     padding-top: 25px;
+    margin: 0 auto;
+    background-color: ;
 }

@@ -6,7 +6,9 @@
 
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 250px 1130px 40px;
+    width: 1420px;
+    margin: 0 auto;
 }
 
 :root {
